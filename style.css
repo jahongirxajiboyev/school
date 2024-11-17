@@ -1,0 +1,123 @@
+/* Root colors for easy theme management */
+:root {
+    --primary-color: #C62828; /* Red */
+    --secondary-color: #FFFFFF; /* White */
+    --background-color: #F4F4F4; /* Light Gray */
+    --accent-color: #333333; /* Dark Gray for text */
+    --hover-color: #FFEBEE; /* Light red hover */
+    --header-bg-color: #333333; /* Dark background for header */
+}
+
+/* Basic reset and box-sizing for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--accent-color);
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: var(--header-bg-color);
+    color: var(--secondary-color);
+    padding: 15px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .logo {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+}
+
+/* Teachers Introduction Section */
+.teachers-intro {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.teachers-intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.teachers-intro p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+/* Teachers List Section */
+.teachers-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px 30px;
+}
+
+.teacher-card {
+    background-color: var(--secondary-color);
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.teacher-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.teacher-card h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.teacher-card p {
+    font-size: 16px;
+    color: var(--accent-color);
+    margin-top: 10px;
+}
+
+.teacher-card:hover {
+    transform: translateY(-10px)
