@@ -68,6 +68,7 @@ nav ul li a:hover {
     color: var(--secondary-color);
     text-align: center;
     padding: 60px 20px;
+    border: 2px solid black;
 }
 
 .teachers-intro h1 {
@@ -88,6 +89,7 @@ nav ul li a:hover {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 60px 30px;
+    border: 2px solid black;
 }
 
 .teacher-card {
@@ -96,6 +98,7 @@ nav ul li a:hover {
     margin: 20px;
     padding: 20px;
     text-align: center;
+    border: 1px soldi red;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: transform 0.3s ease;
@@ -121,3 +124,21 @@ nav ul li a:hover {
 
 .teacher-card:hover {
     transform: translateY(-10px)
+}
+.hhhh{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 32px;
+    background-color: yellow;
+}
+.c{
+    background-color: #D50000;
+    text-align: center;
+    color: yellow;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.is{
+    padding-left: 400px;
+    background-color: #C62828;
+}
